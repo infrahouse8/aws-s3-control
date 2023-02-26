@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "infrahouse-aws-s3-control"
-    key    = "terraform.tfstate"
+    bucket   = "infrahouse-aws-s3-control"
+    key      = "terraform.tfstate"
     region   = "us-west-1"
     role_arn = "arn:aws:iam::990466748045:role/s3-admin"
 
