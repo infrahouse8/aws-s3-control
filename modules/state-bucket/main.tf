@@ -6,6 +6,7 @@ resource "aws_s3_bucket" "state-bucket" {
   lifecycle {
     prevent_destroy = true
   }
+  tags = var.tags
 }
 
 resource "aws_s3_bucket_versioning" "enabled" {
