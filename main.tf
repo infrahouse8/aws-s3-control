@@ -13,5 +13,5 @@ module "buckets" {
   source   = "./modules/state-bucket"
   for_each = local.state_buckets
   bucket   = each.key
-  tags = merge(local.common_tags)
+  tags     = merge(local.common_tags)
 }
