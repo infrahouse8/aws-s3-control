@@ -1,7 +1,7 @@
 locals {
   state_buckets = {
     "infrahouse-aws-s3-control" : {}
-    "infrahouse-github-state": {}
+    "infrahouse-github-state" : {}
   }
 }
 
